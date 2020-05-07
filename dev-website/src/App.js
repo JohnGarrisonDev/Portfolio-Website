@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className="App">
-    <h1> Hello World This is a test</h1>
+    <h1> This is where I fill in extra stuff</h1>
     </div>
   );
 }
