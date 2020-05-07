@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 import'bootstrap/dist/css/bootstrap.css';
+import HomeSection from './components/HomeSection'
+
 function App() {
   return (
     <div className="App">
-    <h1> This is where I fill in extra stuff</h1>
+      <HomeSection/>
     </div>
   );
 }
