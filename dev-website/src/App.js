@@ -2,12 +2,24 @@ import React from 'react';
 import './App.css';
 import'bootstrap/dist/css/bootstrap.css';
 import HomeSection from './components/HomeSection'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <HomeSection/>
-    </div>
+    <Router>
+      <div className="App">
+      </div>
+      <Switch>
+        <Route path='/'>
+          <HomeSection/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
