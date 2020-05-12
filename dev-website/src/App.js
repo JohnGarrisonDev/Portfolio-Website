@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import'bootstrap/dist/css/bootstrap.css';
-import HomeSection from './components/HomeSection'
+import Home from './components/pages/Home'
+import Resume from './components/pages/Resume'
+import AboutMe from './components/pages/AboutMe'
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -14,11 +14,15 @@ function App() {
     <Router>
       <div className="App">
       </div>
-      <Switch>
-        <Route path='/'>
-          <HomeSection/>
+        <Route exact path='/'>
+          <Home/>
         </Route>
-      </Switch>
+        <Route exact path='/resume'>
+          <Resume/>
+        </Route>
+        <Route exact path='/aboutme'>
+          <AboutMe/>
+        </Route>
     </Router>
   );
 }

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../../styles/Home.css'
   
 
 const homeSectionStyle = {
@@ -13,6 +14,7 @@ class HomeSection extends Component{
                 <h1 style={homeSectionStyle}>
                     Hi I'm John and I write code.
                 </h1>
+                THIS IS A TEST
             </div>
           );
           
