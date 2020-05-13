@@ -1,4 +1,5 @@
-.HomeSection{
-    background-image:'../../homebackground.jpg';
-    color:'red'
+.CenterSection{
+    background-image:url('../assets/b1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
 }

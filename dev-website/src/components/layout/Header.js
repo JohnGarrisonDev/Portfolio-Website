@@ -24,9 +24,9 @@ class Header extends Component{
                 <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
                     <Row fluid style={{ marginLeft: 0, marginRight: 0 }}>
                         <Col fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
-                            <Navbar className='justify-content-center dark homeNav' >
+                            <Navbar className='justify-content-center dark homeNav' fixed='top' >
                             <NavbarBrand style={{color:'white', position:'absolute', left:0,padding:'3%'}}>Development Portfolio</NavbarBrand>
-                            <Nav className='justify-content-center dark'>
+                            <Nav className='justify-content-center dark' fluid>
                                 <Nav.Link href="/" style={navStyles}>Home</Nav.Link>
                                 <Nav.Link href="/resume" style={navStyles}>Resume</Nav.Link>
                                 <Nav.Link href='/aboutme' style={navStyles}>About Me</Nav.Link>

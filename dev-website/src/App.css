@@ -1,4 +1,8 @@
 div
 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'DM Mono', monospace;
+}
+
+html, body, #App, #App>div {
+  height: 100%
 }

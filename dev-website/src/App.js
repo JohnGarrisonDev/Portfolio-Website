@@ -8,11 +8,13 @@ import {
   BrowserRouter as Router,
   Route
 } from "react-router-dom";
+import Header from './components/layout/Header'
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" id='App'>
+        <Header/>
       </div>
         <Route exact path='/'>
           <Home/>
